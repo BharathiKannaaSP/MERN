@@ -1,0 +1,128 @@
+.header {
+    background-color: #0d3f5e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+.headerContainer.listMode{
+    margin: 20px 0px 15px 0px;
+}
+.headerList {
+    display: flex;
+    gap: 40px;
+}
+
+.headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.headerListItem.active {
+    border: 1px solid #e85526;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.headerbtn {
+    padding: 10px;
+    color: #0d3f5e;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.headerSearch {
+    height: 30px;
+    background-color: white;
+    border: 3px solid #e85526;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.headerIcon {
+    color: gray;
+    margin-right: 10px;
+}
+
+.headerSearchText {
+    color: gray;
+    cursor: pointer;
+}
+
+.headerSearchbtn {
+    background-color: #0d3f5e;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dateRange {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    margin-left: -200px;
+}
+
+.options {
+    position: absolute;
+    top: 50px;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.9);
+}
+
+.optionItem {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+
+
+}
+
+.optionsbtn {
+    background-color: #0d3f5e;
+    color: white;
+    font-weight: 600;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border: 1px solid #0d3f5e;
+    cursor: pointer;
+}
+
+.optionsbtn:disabled {
+    cursor: not-allowed;
+}

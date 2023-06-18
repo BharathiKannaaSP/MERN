@@ -1,0 +1,147 @@
+.hotelContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.hotelWrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.bookNow {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: #0d3f5e;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hotelTitle {
+    font-size: 24px;
+}
+
+.hotelAddress {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hotelDistance {
+    color: #0d3f5e;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hotelPriceHighlight {
+    color: #e85526;
+}
+
+.hotelImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hotelImgWrapper {
+    width: 33%;
+}
+
+.hotelImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.hotelDetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.hotelDetailTexts {
+    flex: 3;
+}
+
+.hotelDesc {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.hotelDetailsPrice {
+    flex: 1;
+    border-radius: 5px;
+    background-color: #0d3f5e;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hotelDetailsPrice>h1 {
+    font-size: 18px;
+}
+
+.hotelDetailsPrice>button {
+    background-color: #0d3f5e;
+    color: white;
+    border: 1px solid #e85526;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.slider{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.375);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.sliderWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;height: 100%;
+}
+
+.sliderImg{
+    width: 80%;
+    height: 80vh;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: lightgray;
+}
+
+.arrow{
+    font-size: 40px;
+    cursor: pointer;
+    color: lightgray;
+    margin: 20px;
+
+}

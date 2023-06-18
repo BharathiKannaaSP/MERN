@@ -1,0 +1,70 @@
+.login {
+    background: url("https://images.pexels.com/photos/2161449/pexels-photo-2161449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: #00000060;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit:cover;
+    width: 100%;
+    height: 100vh;
+    /* z-index: -2; */
+    filter: brightness(10%);
+}
+.loginContainer {
+    width: 600px;
+    height: 450px;
+    background-color: rgb(4, 4, 4);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.loginContainer input {
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.login_btn{
+    background-color: transparent;
+    padding: 10px;
+    width: 110%;
+    border: 1px solid #fd7e14;
+    cursor: pointer;
+    color: white;
+}
+.login_btn:disabled{
+    cursor: not-allowed;
+    border: 1px solid #fd7d147c;
+
+}
+.login_error{
+    color:white;
+    text-transform: capitalize;
+    width: 450px;
+}
+
+.newUser{
+    color: white;
+    position: absolute;
+    bottom:10rem;
+    
+}
+
+.newUser>span{
+    cursor: pointer;
+}

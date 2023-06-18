@@ -1,0 +1,29 @@
+.features {
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.featureItems{
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+}
+.featureImg:hover{
+    filter: brightness(30%);
+    cursor: pointer;
+}
+.featureImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.featureTitle{
+    position: absolute;
+    bottom: 20px;
+    margin: 20px;
+}

@@ -1,0 +1,111 @@
+export const featuresDetails = [
+  {
+    id: 1,
+    img: "https://images.pexels.com/photos/5490356/pexels-photo-5490356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    title: "Los Angeles",
+    subTitle: "300 Properties",
+  },
+  {
+    id: 2,
+    img: "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    title: "New York",
+    subTitle: "250 Properties",
+  },
+  {
+    id: 3,
+    img: "https://images.pexels.com/photos/2090653/pexels-photo-2090653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    title: "Washington",
+    subTitle: "500 Properties",
+  },
+];
+
+export const propertyListType = [
+  {
+    id: 1,
+    img: "https://images.pexels.com/photos/2079246/pexels-photo-2079246.jpeg?auto=compress&cs=tinysrgb&w=600",
+    type: "Independent House",
+    propertyListCount: "1000+ Houses",
+    alt: "Independent House",
+  },
+  {
+    id: 2,
+    img: "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600",
+    type: "Hotels",
+    propertyListCount: "400+ Hotels",
+    alt: "Hotels",
+  },
+  {
+    id: 3,
+    img: "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?auto=compress&cs=tinysrgb&w=600",
+    type: "Apartments",
+    propertyListCount: "800+ Apartments",
+    alt: "Apartments",
+  },
+  {
+    id: 4,
+    img: "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=600",
+    type: "Resorts",
+    propertyListCount: "200+ Resorts",
+    alt: "Resorts",
+  },
+  {
+    id: 5,
+    img: "https://images.pexels.com/photos/290518/pexels-photo-290518.jpeg?auto=compress&cs=tinysrgb&w=600",
+    type: "Cabins",
+    propertyListCount: "100+ Cabins",
+    alt: "Cabins",
+  },
+];
+
+export const FeaturedPropertiesDetails = [
+  {
+    id: 1,
+    name: "6 Continents Apartments",
+    city: "Prague 1,Czech Republic,Prague",
+    price: "Starting from  ₹ 11,134",
+    rating: "8.3",
+    reviews:"1200 reviews",
+    img: "https://cf.bstatic.com/xdata/images/hotel/square600/421853145.webp?k=140bfc6c54ee753d4a748ee7b5a86c00c988e6fc9bb340c87172ead66a3ea9d5&o=&s=1",
+    alt: "Prague",
+  },
+  {
+    id: 2,
+    name: "7 Seasons Apartments",
+    city: "06. Terézváros, Hungary, Budapest",
+    price: "Starting from ₹ 13,274",
+    rating: "8.8",
+    reviews:"2000 reviews",
+    img: "https://cf.bstatic.com/xdata/images/hotel/square600/87428762.webp?k=9a065fcd92168145d8c8358701662c76793535597b678efc8f6921c8e3c188e6&o=&s=1",
+    alt: "Budapest",
+  },
+  {
+    id: 3,
+    name: "Aparthotel Stare Miasto",
+    city: "Old Town, Poland, Kraków",
+    price: "Starting from ₹ 10,200",
+    rating: "8.7",
+    reviews:"1000 reviews",
+    img: "https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1",
+    alt: "Kralow",
+  },
+  // {
+  //   id: 4,
+  //   name: "The Sloane Club",
+  //   city: "Kensington and Chelsea, United Kingdom, London",
+  //   price: "Starting from ₹ 57,705",
+  //   rating: "9.1",
+  //   reviews:"3000 reviews",
+  //   img: "https://cf.bstatic.com/xdata/images/hotel/square600/420377357.webp?k=73f8c029827076805ee781cdf818bb5e5e9b963227d74e4ebe071f3564ae4423&o=&s=1",
+  //   alt: "London",
+  // },
+  // {
+  //   id: 5,
+  //   name: "Zoku Amsterdam",
+  //   city: "Amsterdam City Center, Netherlands, Amsterdam",
+  //   price: "Starting from ₹ 16,620",
+  //   rating: "8.8",
+  //   reviews:"700 reviews",
+  //   img: "https://cf.bstatic.com/xdata/images/hotel/square600/64768746.webp?k=bcadbce621d8b9ab9941b6dc1fa4d7905e1fdfb52cdf45798fc68675e3e53a53&o=&s=1",
+  //   alt: "Amsterdam",
+  // },
+];

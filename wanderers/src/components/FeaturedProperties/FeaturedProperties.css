@@ -1,0 +1,57 @@
+.featuredProperties {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.featuredPropertiesItems {
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featuredPropertyImg {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.featuredPropertyImg:hover {
+    filter: brightness(40%);
+}
+
+.fpimgTitle {
+    color: white;
+    font-size: 30px;
+}
+
+.featuredPropertyName {
+    font-weight: bold;
+}
+
+.featuredPropertyCity {
+    color: gray;
+    width: 180px;
+}
+
+.featuredPropertyPrice {
+    font-weight: 700;
+}
+
+.featuredPropertyrating>button {
+    padding: 10px;
+    border: none;
+    gap: 20px;
+    border-radius: 50%;
+    background-color: #0d3f5e;
+    color: white;
+}
+
+.featuredPropertyrating>p {
+    font-weight: 600;
+    display: inline;
+    margin: 10px;
+}

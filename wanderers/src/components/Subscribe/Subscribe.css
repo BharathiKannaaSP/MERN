@@ -1,0 +1,26 @@
+.subscribe{
+    margin-top: 50px;
+    background-color: #0d3f5e;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    color: white;
+}
+
+
+.mail>input{
+    padding: 10px;
+    width: 400px;
+}
+
+.mail>button{
+    padding: 11px;
+    background-color: #0d3f5e;
+    color:white;
+    border: 2px solid #e85526;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: 400;
+}
